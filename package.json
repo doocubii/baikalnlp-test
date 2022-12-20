@@ -1,19 +1,19 @@
 {
   "name": "bakalnlp-test",
   "version": "1.0.0",
-  "description": "bakinlp test",
+  "description": "bareun test",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
-    "baikal",
+    "bareun",
     "nlp",
     "test"
   ],
   "author": "baikal.ai",
   "license": "ISC",
   "dependencies": {
-    "baikalnlp": "^1.0.1"
+    
   }
 }

@@ -1,9 +1,9 @@
-let {BaikalLanguageServiceClient, Tagger, CustomDict}  = require("baikalnlp");
+let {LanguageServiceClient, Tagger, CustomDict}  = require("bareun");
 let host="localhost"; //gpu2.baikal.ai";
 
 async function testLanguageService() {
     console.log("\n\ntestLanguageService()")
-    let language_service_client = new BaikalLanguageServiceClient(host);
+    let language_service_client = new LanguageServiceClient(host);
 
     console.log(">>>>>>> "+ language_service_client.remote + " test start.");
 
